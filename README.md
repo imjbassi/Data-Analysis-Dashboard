@@ -1,2 +1,65 @@
-# Data-Analysis-Dashboard
-The interactive dashboard provides users with an intuitive interface to view and analyze sample data presented in various chart types, such as bar charts, line charts, or scatter plots.
+# Data Analysis Dashboard
+
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+## Overview
+
+This project is a web-based data analysis dashboard that allows users to explore and visualize data using SQL queries. The dashboard is built using Flask, a lightweight Python web framework, and uses SQLite as the backend database for data storage and retrieval. The interactive dashboard provides users with an intuitive interface to view and analyze sample data presented in various chart types, such as bar charts, line charts, or scatter plots.
+
+## Features
+
+- Interactive data visualization with Plotly.js
+- SQL database integration for data storage and retrieval
+- Sample data for demonstration purposes
+- Easy-to-use web interface for data exploration
+- Expandable and customizable for further data analysis tasks
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/imjbassi/data-analysis-dashboard.git
+cd sql-data-analysis-dashboard
+
+
+2. Install the required dependencies:
+pip install -r requirements.txt (pip install -r requirements.txt)
+
+3. Run the application:
+python app.py
+
+
+4. Open your web browser and go to [http://localhost:5000/](http://localhost:5000/) to access the dashboard.
+
+## Usage
+
+- The dashboard displays a bar chart by default, visualizing the sample data stored in the SQLite database.
+- You can explore the data and interact with the chart using the web interface.
+
+## Project Structure
+
+├── app.py # Flask application main file
+├── data.db # SQLite database file
+├── requirements.txt # Project dependencies
+├── templates # HTML templates for the web interface
+│ └── index.html # Main dashboard template
+├── static # Static files (e.g., CSS, JS, images)
+│ └── dashboard_screenshot.png # Screenshot for the README
+└── README.md # Project documentation (this file)
+
+## Sample Data
+
+The SQLite database `data.db` contains sample data for demonstration purposes. The data is stored in the `data` table, which has columns `id`, `name`, and `value`. The dashboard retrieves and visualizes this data.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+## Acknowledgments
+
+- The dashboard uses [Plotly.js](https://plotly.com/javascript/) for interactive data visualization.
+
+
