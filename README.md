@@ -20,9 +20,9 @@ cd sql-data-analysis-dashboard
 
 2. Install the required dependencies:
 pip install -r requirements.txt
-  Flask
-  plotly
-  sqlite3
+- Flask
+- plotly
+- sqlite3
 
 4. Run the application:
 python app.py
