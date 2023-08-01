@@ -18,15 +18,16 @@ This project is a web-based data analysis dashboard that allows users to explore
 git clone https://github.com/imjbassi/data-analysis-dashboard.git
 cd sql-data-analysis-dashboard
 
-
 2. Install the required dependencies:
-pip install -r requirements.txt (pip install -r requirements.txt)
+pip install -r requirements.txt
+  Flask
+  plotly
+  sqlite3
 
-3. Run the application:
+4. Run the application:
 python app.py
 
-
-4. Open your web browser and go to [http://localhost:5000/](http://localhost:5000/) to access the dashboard.
+5. Open your web browser and go to [http://localhost:5000/](http://localhost:5000/) to access the dashboard.
 
 ## Usage
 
