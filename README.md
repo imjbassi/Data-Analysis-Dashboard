@@ -1,7 +1,5 @@
 # Data Analysis Dashboard
 
-![Dashboard Screenshot](dashboard_screenshot.png)
-
 ## Overview
 
 This project is a web-based data analysis dashboard that allows users to explore and visualize data using SQL queries. The dashboard is built using Flask, a lightweight Python web framework, and uses SQLite as the backend database for data storage and retrieval. The interactive dashboard provides users with an intuitive interface to view and analyze sample data presented in various chart types, such as bar charts, line charts, or scatter plots.
