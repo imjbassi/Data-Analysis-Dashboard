@@ -35,16 +35,6 @@ python app.py
 - The dashboard displays a bar chart by default, visualizing the sample data stored in the SQLite database.
 - You can explore the data and interact with the chart using the web interface.
 
-## Project Structure
-
-├── app.py # Flask application main file
-├── data.db # SQLite database file
-├── requirements.txt # Project dependencies
-├── templates # HTML templates for the web interface
-│ └── index.html # Main dashboard template
-├── static # Static files (e.g., CSS, JS, images)
-│ └── dashboard_screenshot.png # Screenshot for the README
-└── README.md # Project documentation (this file)
 
 ## Sample Data
 
