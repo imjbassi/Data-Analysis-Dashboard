@@ -29,7 +29,7 @@ python app.py
 
 ## Sample Data
 
-SQLite database `data.db` contains sample data for demonstration purposes. The data is stored in the `data` table, which has columns `id`, `name`, and `value`. The dashboard retrieves and visualizes this data
+SQLite database `data.db` can contain sample data for demonstration purposes. The data is stored in the `data` table, which has columns `id`, `name`, and `value` There is a test `data.py` made for the purpose of inputting sample data into `data.db`
 
 ## License
 
